@@ -112,7 +112,7 @@ AI Review Output
 ## 1. Clone The Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/csumitwr/ai-code-reviewer
 cd ai-code-reviewer
 ```
 
