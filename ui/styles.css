@@ -1,0 +1,144 @@
+/* Main app background */
+.stApp {
+    background: linear-gradient(
+        135deg,
+        #050816 0%,
+        #0f172a 35%,
+        #3b0a45 70%,
+        #ff4d6d 100%
+    );
+
+    min-height: 100vh;
+    color: white;
+}
+
+/* Main layout */
+.main .block-container {
+    max-width: 1200px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* Main title */
+.main-title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    background: linear-gradient(
+        90deg,
+        #ff4d6d,
+        #9d4edd,
+        #5a8dee
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Result title */
+.result-title {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    background: linear-gradient(
+        90deg,
+        #ff4d6d,
+        #9d4edd,
+        #5a8dee
+    );
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Text area */
+.stTextArea textarea {
+    background: rgba(17, 25, 40, 0.75) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 24px !important;
+
+    color: white !important;
+    font-size: 16px !important;
+    padding: 20px !important;
+    backdrop-filter: blur(12px);
+    min-height: 350px !important;
+}
+
+/* Select boxes */
+.stSelectbox div[data-baseweb="select"] {
+    background: rgba(17, 25, 40, 0.75);
+    border-radius: 14px;
+    color: white;
+}
+
+/* Buttons */
+.stButton button {
+    width: 100%;
+
+    background: linear-gradient(
+        90deg,
+        #ff4d6d,
+        #9d4edd
+    );
+
+    color: white;
+    border: none;
+    border-radius: 14px;
+    padding: 0.85rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.3s ease;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(255, 77, 109, 0.4);
+}
+
+/* Markdown headings */
+h1,
+h2,
+h3 {
+    color: white;
+    font-weight: 700;
+    margin-top: 1.5rem;
+}
+
+/* Paragraphs and lists */
+p,
+li {
+    color: #e2e8f0;
+    line-height: 1.8;
+    font-size: 1rem;
+}
+
+/* Code blocks */
+pre {
+    background: #0f172a !important;
+    border-radius: 14px !important;
+    padding: 1rem !important;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Inline code */
+code {
+    color: #ff8fab;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9d4edd;
+    border-radius: 10px;
+}
